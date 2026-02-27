@@ -1,0 +1,15 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "API Endpoint Tester Frontend",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "serve": "lite-server",
+    "start": "npm run build && npm run serve"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.3.3"
+  }
+}
